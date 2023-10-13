@@ -17,3 +17,6 @@ arduino-cli lib install Arduino_HTS221
 ```shell
 pip3 install cpplint
 ```
+
+* RFC document
+https://docs.google.com/document/d/1kEhEuaUNniLgcGZ6a8SjvLJjtZSAe4iUedIUJRCNQcY/edit?usp=sharing
