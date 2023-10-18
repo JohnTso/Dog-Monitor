@@ -1,4 +1,4 @@
-# Dog-Monitor
+# Smart-Pet
 My semester project, build a health monitor device with Arduino Nano 33 BLE sense
 
 * To set up the environment, make sure to run these commands first
@@ -10,8 +10,9 @@ brew install arduino-cli
 ```shell
 arduino-cli core install arduino:mbed
 arduino-cli lib install Arduino_LSM9DS1
-arduino-cli lib install Arduino_HTS221
+arduino-cli lib install SD
 ```
+* Remember to also go into the Arduino IDE to install the ```PulseSensor Playground``` and ```Wire```
 
 * If you do not have cpplint installed still, run
 ```shell
